@@ -84,7 +84,7 @@ const Projects = ({ projects }) => {
 								}
 
 								& > a:last-of-type > svg {
-									margin-left: 0.5rem;
+									margin-left: 1rem;
 								}
 							`}
 						>

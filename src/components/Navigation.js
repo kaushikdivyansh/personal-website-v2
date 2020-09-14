@@ -8,6 +8,7 @@ const Navigation = ({sections}) => {
 			css={css`
 				display: none;
 				@media only screen and (min-width: 1200px) {
+					display: initial;
 					margin-bottom: 4rem;
 				}
 			`}

@@ -8,17 +8,24 @@ import data from "../data/Data";
 const GeneralInformation = () => {
 	const { name, about, sections } = data;
 	return (
-		<section
+		<div
 			css={css`
-				@media only screen and (min-width: 1200px) {
-					flex-basis: 45%;
-				}
+				flex-basis: 45%;
 			`}
 		>
-			<About name={name} about={about} />
-			<Navigation sections={sections} />
-			<Contact />
-		</section>
+			<section
+				css={css`
+					@media only screen and (min-width: 1200px) {
+						position: fixed;
+						width: calc((100vw - 40rem) * 45/100);
+					}
+				`}
+			>
+				<About name={name} about={about} />
+				<Navigation sections={sections} />
+				<Contact />
+			</section>
+		</div>
 	);
 };
 
