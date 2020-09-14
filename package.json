@@ -1,34 +1,80 @@
 {
-  "name": "portfolio-v2",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "portfolio-v2",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@emotion/babel-preset-css-prop": "^10.0.27",
+		"@emotion/core": "^10.0.35",
+		"@emotion/styled": "^10.0.27",
+		"@fortawesome/fontawesome-svg-core": "^1.2.30",
+		"@fortawesome/free-brands-svg-icons": "^5.14.0",
+		"@fortawesome/free-solid-svg-icons": "^5.14.0",
+		"@fortawesome/react-fontawesome": "^0.1.11",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-scripts": "3.4.3"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"eslint:recommended",
+			"plugin:import/errors",
+			"plugin:react/recommended",
+			"plugin:jsx-a11y/recommended"
+		],
+		"rules": {
+			"react/prop-types": 0,
+			"react-hooks/rules-of-hooks": "error",
+			"no-console": "warn"
+		},
+		"parser": "babel-eslint",
+		"plugins": [
+			"react",
+			"import",
+			"jsx-a11y",
+			"react-hooks"
+		],
+		"parserOptions": {
+			"ecmaVersion": 2018,
+			"sourceType": "module",
+			"ecmaFeatures": {
+				"jsx": true
+			}
+		},
+		"env": {
+			"es6": true,
+			"browser": true,
+			"node": true
+		},
+		"settings": {
+			"react": {
+				"version": "detect"
+			}
+		}
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint-plugin-emotion": "^10.0.27"
+	}
 }
