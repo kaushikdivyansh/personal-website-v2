@@ -10,14 +10,22 @@ const GeneralInformation = () => {
 	return (
 		<div
 			css={css`
-				flex-basis: 45%;
+				@media only screen and (min-width: 1200px) {
+					flex-basis: 40%;
+				}
+				@media only screen and (min-width: 1440px) {
+					flex-basis: 45%;
+				}
 			`}
 		>
 			<section
 				css={css`
 					@media only screen and (min-width: 1200px) {
 						position: fixed;
-						width: calc((100vw - 40rem) * 45/100);
+						width: calc((100vw - 20rem) * 40 / 100);
+					}
+					@media only screen and (min-width: 1440px) {
+						width: calc((100vw - 40rem) * 45 / 100);
 					}
 				`}
 			>

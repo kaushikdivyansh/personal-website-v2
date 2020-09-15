@@ -1,8 +1,9 @@
 const data = {
 	name: "Divyansh Kaushik",
 	about: [
-		"Deserunt pariatur et quis amet voluptate. Duis incididunt enim magna exercitation in commodo duis consectetur Lorem sint aliquip cupidatat. Id officia laboris ut duis cupidatat aute eu occaecat qui. Labore esse incididunt magna non minim eiusmod aute consectetur duis nisi ad officia consectetur commodo. Sunt culpa ea ad laborum excepteur qui amet excepteur in reprehenderit deserunt sit in aliqua. Occaecat et adipisicing aliqua cillum deserunt exercitation occaecat amet eiusmod.",
-		"Enim tempor dolore aliqua enim cupidatat non. Excepteur consectetur elit voluptate ea ea non qui nulla cillum. Qui minim quis duis velit. Duis reprehenderit incididunt sunt do nulla adipisicing consectetur ipsum enim fugiat ea anim. Amet duis id incididunt ea culpa. Aute sit in cupidatat minim ad labore non. Ad dolore et ut veniam sint esse in ullamco elit sint excepteur.",
+		"I'm a freelance web developer based out of Austin, TX.",
+		"I enjoy developing applications from the ground up and am passionate about writing clear, robust code. I love solving algorithms, debugging, and learning new technologies.",
+		"I mostly do front-end development, and I'm a React.js nerd. Feel free to have a look at my portfolio and don’t hesitate to contact me if you think I can be of service to you. Thanks for stopping by!"
 	],
 	sections: ["skills", "projects"],
 	skills: [

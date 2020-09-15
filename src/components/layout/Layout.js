@@ -66,9 +66,14 @@ const Layout = ({ children }) => {
 			<main
 				css={css`
 					margin: 2rem;
+
 					@media only screen and (min-width: 1200px) {
-						margin: 4rem 20rem;
+						margin: 3rem 10rem;
 						display: flex;
+					}
+
+					@media only screen and (min-width: 1440px) {
+						margin: 4rem 20rem;
 					}
 				`}
 			>

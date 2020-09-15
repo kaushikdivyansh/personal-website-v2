@@ -10,8 +10,10 @@ const ProjectsAndSkills = () => {
 		<section
 			css={css`
 				@media only screen and (min-width: 1200px) {
+					flex-basis: 60%;
+				}
+				@media only screen and (min-width: 1440px) {
 					flex-basis: 55%;
-					/* overflow-y: scroll; */
 				}
 			`}
 		>
