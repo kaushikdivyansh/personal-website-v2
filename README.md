@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-![Logo](src/images/logo.png) <!-- .element height="50%" width="50%" -->
+![Logo](src/images/logo.png)
 # kaushikdivyansh.dev - v2
   The second iteration of <a href="https://kaushikdivyansh.dev" target="_blank">kaushikdivyansh.dev</a> built with <a href="https://reactjs.org" target="_blank">React</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify.</a>
 
