@@ -3,7 +3,7 @@ const data = {
 	about: [
 		"I'm a freelance web developer based out of Austin, TX.",
 		"I enjoy developing applications from the ground up and am passionate about writing clear, robust code. I love solving algorithms, debugging, and learning new technologies.",
-		"I mostly do front-end development, and I'm a React.js nerd. Feel free to have a look at my portfolio and don’t hesitate to contact me if you think I can be of service to you. Thanks for stopping by!"
+		"I mostly do front-end development, and I'm a React.js nerd. Feel free to have a look at my portfolio and don’t hesitate to contact me if you think I can be of service to you. Thanks for stopping by!",
 	],
 	sections: ["skills", "projects"],
 	skills: [
@@ -21,6 +21,13 @@ const data = {
 	],
 	projects: [
 		{
+			title: "Chandrima Design Studio",
+			external: "https://www.chandrima.co",
+			tech: "React, Gatsby, GraphQL, Emotion, Shopify API(Coming soon)",
+			description:
+				"Freelance Project. Worked closely with the client to transform their vision for the company website to a tangible product to showcase their collection, especially in markets outside India that are otherwise inaccessible.",
+		},
+		{
 			title: "Clothing Dojo",
 			github:
 				"https://github.com/kaushikdivyansh/ClothingDojo-ECommere-Website",
@@ -36,7 +43,15 @@ const data = {
 				"Web and mobile app, developed for a Non-Profit Organization, that is committed to supporting college- bound foster youths. Leveraged Bootstrap for its responsive structures, styles, and fewer cross browser bugs.",
 		},
 		{
-			title: "Personal Website V1",
+			title: "Personal Website v2",
+			external: "https://dk-personal-website-v2.netlify.app",
+			github: "https://github.com/kaushikdivyansh/Portfolio-v2",
+			tech: "React, Emotion, JavaScript, Netlify",
+			description:
+				"Second iteration of my portfolio website I designed and built in 2020. I learned quite a bit about React, Emotion, and SEO. Deployed on Netlify.",
+		},
+		{
+			title: "Personal Website v1",
 			external: "https://dk-personal-website-v1.netlify.app",
 			github: "https://github.com/kaushikdivyansh/Portfolio-v1",
 			tech: "HTML, CSS, JavaScript, Netlify",

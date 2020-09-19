@@ -90,9 +90,12 @@ const Projects = ({ projects }) => {
 									}
 								`}
 							>
-								<LinkedIcon link={project.github}>
-									<Github />
-								</LinkedIcon>
+								{project.github ? (
+									<LinkedIcon link={project.github}>
+										<Github />
+									</LinkedIcon>
+								) : null}
+
 								{project.external ? (
 									<LinkedIcon link={project.external}>
 										<External />
