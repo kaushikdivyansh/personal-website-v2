@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, css } from "@emotion/core";
+import { css } from "@emotion/react";
 
 const LinkedIcon = ({link, children}) => (
 	<a

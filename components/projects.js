@@ -1,8 +1,7 @@
-/** @jsx jsx */
-import { jsx, css } from "@emotion/core";
-import LinkedIcon from "./LinkedIcon";
-import Github from "./icons/Github";
-import External from "./icons/External";
+import { css } from "@emotion/react";
+import LinkedIcon from "./linkedIcon";
+import Github from "./github";
+import External from "./external";
 
 const Projects = ({ projects }) => {
 	return (

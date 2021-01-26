@@ -1,8 +1,4 @@
-/* eslint-disable no-unused-vars */
-/** @jsx jsx */
-/** @jsxFrag React.Fragment */
-import React from "react"
-import { Global, jsx, css} from "@emotion/core";
+import { Global, css} from "@emotion/react";
 
 const Layout = ({ children }) => {
 	return (
