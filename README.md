@@ -1,6 +1,6 @@
 ![Logo](public/logo.png)
-# kaushikdivyansh.dev - v2
-  The second iteration of <a href="https://kaushikdivyansh.dev" target="_blank">kaushikdivyansh.dev</a> built with <a href="https://reactjs.org" target="_blank">React</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify.</a>
+# kaushikdivyansh.dev - v2.5
+  The second iteration of <a href="https://kaushikdivyansh.dev" target="_blank">kaushikdivyansh.dev</a> built with <a href="https://nextjs.org" target="_blank">NextJS</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify.</a>
 
   Previous iteration:
   <a href="https://github.com/kaushikdivyansh/Personal-Website-v1" target="_blank">v1</a>,
