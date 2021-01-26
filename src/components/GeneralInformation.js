@@ -1,8 +1,9 @@
-import { css } from "@emotion/react";
-import About from "./about";
-import Navigation from "./navigation";
-import Contact from "./contact";
-import { data } from "../data/data"
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
+import About from "./About";
+import Navigation from "./Navigation";
+import Contact from "./Contact";
+import data from "../data/Data";
 
 const GeneralInformation = () => {
 	const { name, about, sections } = data;

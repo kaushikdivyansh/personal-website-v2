@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { css } from "@emotion/react";
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import { useState } from "react";
 
 const Navigation = ({ sections }) => {

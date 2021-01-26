@@ -1,8 +1,9 @@
-import { css } from "@emotion/react";
-import LinkedIcon from "./linkedIcon";
-import Github from "./github";
-import Linkedin from "./linkedin";
-import Mail from "./mail";
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
+import LinkedIcon from "./LinkedIcon";
+import Github from "./icons/Github";
+import Linkedin from "./icons/Linkedin";
+import Mail from "./icons/Mail";
 
 const Contact = () => {
 	return (

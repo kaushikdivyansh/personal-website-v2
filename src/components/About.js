@@ -1,4 +1,5 @@
-import { css } from "@emotion/react";
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import styled from "@emotion/styled";
 
 const Para = styled.p`

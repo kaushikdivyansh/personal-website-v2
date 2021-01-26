@@ -1,4 +1,4 @@
-export const data = {
+const data = {
 	name: "Divyansh Kaushik",
 	about: [
 		"I'm a freelance web developer based out of Austin, TX.",
@@ -60,3 +60,5 @@ export const data = {
 		},
 	],
 };
+
+export default data
