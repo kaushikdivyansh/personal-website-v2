@@ -3,7 +3,7 @@
   The second iteration of <a href="https://kaushikdivyansh.dev" target="_blank">kaushikdivyansh.dev</a> built with <a href="https://nextjs.org" target="_blank">NextJS</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify.</a>
   
   Next iteration:
-  <a href="https://github.com/kaushikdivyansh/personal-website-v2/" target="_blank">v2</a>
+  <a href="https://github.com/kaushikdivyansh/personal-website-v2.5/" target="_blank">v2.5</a>
 
   Previous iteration:
   <a href="https://github.com/kaushikdivyansh/Personal-Website-v1/" target="_blank">v1</a>
